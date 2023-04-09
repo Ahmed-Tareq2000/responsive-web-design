@@ -1,0 +1,125 @@
+:root {
+    --bs-blue: #0d6efd;
+    --section-color: #eff7fa;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* start nav */
+.navbar {
+    max-height: 64.7px;
+}
+
+/* end nav */
+
+/* start home */
+.home {
+    background-color: var(--section-color);
+}
+
+.home-row {
+    height: calc(100vh - 64.7px);
+}
+
+.home img {
+    width: 380px;
+}
+
+/* end home */
+
+/* start about */
+.html::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    left: 0;
+    bottom: -10px;
+    background-image: linear-gradient(to right, var(--bs-blue) 0%, var(--bs-blue) 94%, #80808099 90%);
+}
+
+.css::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    left: 0;
+    bottom: -10px;
+    background-image: linear-gradient(to right, var(--bs-blue) 0%, var(--bs-blue) 88%, #80808099 88%);
+}
+
+.js::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    left: 0;
+    bottom: -10px;
+    background-image: linear-gradient(to right, var(--bs-blue) 0%, var(--bs-blue) 60%, #80808099 60%);
+}
+
+.bootstrap::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    left: 0;
+    bottom: -10px;
+    background-image: linear-gradient(to right, var(--bs-blue) 0%, var(--bs-blue) 73%, #80808099 73%);
+}
+
+/* end about */
+
+/* start services */
+.services {
+    background-color: var(--section-color);
+}
+
+.services svg {
+    color: var(--bs-blue);
+}
+
+/* end services */
+
+/* start testimmonials */
+.testimmonials {
+    background-color: var(--section-color);
+}
+
+.testimmonials .box img {
+    width: 90px;
+}
+
+.carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+.testimmonials .box {
+    transition: 0.3s;
+}
+
+/* end testimmonials */
+
+/* start contact */
+
+.contact {
+    background-color: var(--section-color);
+}
+
+.contact svg {
+    color: var(--bs-blue);
+}
+
+.contact input,
+textarea {
+    border: none;
+    outline: none;
+}
+
+/* end contact */
